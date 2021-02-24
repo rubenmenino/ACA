@@ -1,0 +1,440 @@
+|Checker
+arIn[0] => xor2to1:xor15_12_11_0_10_9_8_7_erro0.b
+arIn[1] => xor2to1:xor15_7_0_erro1.b
+arIn[2] => xor2to1:xor10_9_3_1_erro2.b
+arIn[3] => xor2to1:xor9_8_4_2_0_erro3.b
+arIn[4] => xor2to1:xor14_2_10_9_erro4.b
+arIn[5] => xor2to1:xor12_0_8_7_erro5.b
+arIn[6] => xor2to1:xor13_1_5_3_10_9_8_7_erro6.b
+arIn[7] => xor2to1:xor14_2_6_4_10_9_8_7_erro7.b
+arIn[8] => xor2to1:xor12_0.b
+arIn[8] => xor2to1:xor9_8_4_2_0.b
+arIn[8] => xor2to1:xor15_7_0.b
+arIn[9] => xor2to1:xor13_1.b
+arIn[9] => xor2to1:xor14_10_9_5_3_2_1_erro4.b
+arIn[9] => xor2to1:xor3_1.b
+arIn[10] => xor2to1:xor14_2.b
+arIn[10] => xor2to1:xor12_9_8_7_6_5_4_2_0_erro5.b
+arIn[10] => xor2to1:xor9_8_4_2.b
+arIn[11] => xor2to1:xor5_3.b
+arIn[11] => xor2to1:xor3_1.a
+arIn[12] => xor2to1:xor6_4.b
+arIn[12] => xor2to1:xor9_8_4.b
+arIn[13] => xor2to1:xor5_3.a
+arIn[13] => xor2to1:xor12_0_8_7_6_4_9_5_erro5.b
+arIn[14] => xor2to1:xor6_4.a
+arIn[14] => xor2to1:xor13_10_9_8_7_6_5_3_1_erro6.b
+arIn[15] => xor2to1:xor8_7.b
+arIn[15] => xor2to1:xor15_7.b
+arIn[16] => xor2to1:xor8_7.a
+arIn[16] => xor2to1:xor9_8.b
+arIn[17] => xor2to1:xor10_9.b
+arIn[17] => xor2to1:xor12_0_8_7_6_4_9_erro5.b
+arIn[17] => xor2to1:xor9_8.a
+arIn[18] => xor2to1:xor10_9.a
+arIn[19] => xor2to1:xor15_11.b
+arIn[19] => xor2to1:xor14_11_10_9_8_7_6_4_2_erro7.b
+arIn[20] => xor2to1:xor12_0.a
+arIn[21] => xor2to1:xor13_1.a
+arIn[22] => xor2to1:xor14_2.a
+arIn[23] => xor2to1:xor15_11.a
+arIn[23] => xor2to1:xor15_7.a
+checkError <= or8to1:or8to1_y.b
+errorOut0 <= xor2to1:xor15_12_11_10_9_8_7_5_3_0_erro0.y
+errorOut1 <= xor2to1:xor15_13_7_6_5_4_3_1_0_erro1.y
+errorOut2 <= xor2to1:xor15_14_11_10_9_6_4_3_2_1_0_erro2.y
+errorOut3 <= xor2to1:xor13_9_8_4_2_1_0_erro3.y
+errorOut4 <= xor2to1:xor14_10_9_5_3_2_1_erro4.y
+errorOut5 <= xor2to1:xor12_9_8_7_6_5_4_2_0_erro5.y
+errorOut6 <= xor2to1:xor13_10_9_8_7_6_5_3_1_erro6.y
+errorOut7 <= xor2to1:xor14_11_10_9_8_7_6_4_2_erro7.y
+
+
+|Checker|xor2to1:xor15_11
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_2
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor13_1
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor12_0
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor10_9
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor8_7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor6_4
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor5_3
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_11_12_0
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_2_6_4
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor13_1_5_3
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor10_9_8_7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_2_6_4_10_9_8_7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_2_6_4_10_9_8_7_erro7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_11_10_9_8_7_6_4_2_erro7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor13_1_5_3_10_9_8_7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor13_1_5_3_10_9_8_7_erro6
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor13_10_9_8_7_6_5_3_1_erro6
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor12_0_8_7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor12_0_8_7_erro5
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor12_0_8_7_6_4_erro5
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor12_0_8_7_6_4_9_erro5
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor12_0_8_7_6_4_9_5_erro5
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor12_9_8_7_6_5_4_2_0_erro5
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_2_10_9
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_2_10_9_erro4
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_2_10_9_5_3_erro4
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor14_10_9_5_3_2_1_erro4
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor9_8
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor9_8_4
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor9_8_4_2
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor9_8_4_2_0
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor9_8_4_2_0_erro3
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor13_9_8_4_2_1_0_erro3
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor3_1
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor10_9_3_1
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor10_9_3_1_erro2
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor10_9_3_1_15_11_12_0_erro2
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_14_11_10_9_6_4_3_2_1_0_erro2
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_7_0
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_7_0_erro1
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor6_4_0_15_7_erro1
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_13_7_6_5_4_3_1_0_erro1
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_12_11_0_10_9_8_7
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_12_11_0_10_9_8_7_erro0
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|xor2to1:xor15_12_11_10_9_8_7_5_3_0_erro0
+a => y.IN0
+a => y.IN0
+b => y.IN1
+b => y.IN1
+y <= y.DB_MAX_OUTPUT_PORT_TYPE
+
+
+|Checker|or8to1:or8to1_y
+a[0] => b.IN0
+a[1] => b.IN1
+a[2] => b.IN0
+a[3] => b.IN1
+a[4] => b.IN0
+a[5] => b.IN1
+a[6] => b.IN0
+a[7] => b.IN1
+b <= b.DB_MAX_OUTPUT_PORT_TYPE
+
+

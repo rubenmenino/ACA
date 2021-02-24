@@ -1,0 +1,150 @@
+m255
+K4
+z2
+!s11e vcom 2020.1 2020.02, Feb 28 2020
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/Menino/Desktop/MEU/ACA/assignments/1/reminder_properties/checker/simulation/qsim
+Echecker
+Z1 w1608043275
+Z2 DPx4 ieee 16 vital_primitives 0 22 G>kiXP8Q9dRClKfK1Zn7j1
+Z3 DPx9 cycloneiv 19 cycloneiv_atom_pack 0 22 ^M[R>L941CzW^5^z4gfb52
+Z4 DPx4 ieee 12 vital_timing 0 22 J>EBealN09f8GzldA[z2>3
+Z5 DPx3 std 6 textio 0 22 zE1`LPoLg^DX3Oz^4Fj1K3
+Z6 DPx4 ieee 14 std_logic_1164 0 22 cVAk:aDinOX8^VGI1ekP<3
+Z7 DPx9 cycloneiv 20 cycloneiv_components 0 22 A=5Z=j^V:4BYGPNKNFE9o0
+!i122 54
+R0
+Z8 8Checker.vho
+Z9 FChecker.vho
+l0
+L78 1
+VMhQbhKUKU[RK]U>GMU[H=2
+!s100 bI<n8VcV>KdSLPh;gAX5^2
+Z10 OV;C;2020.1;71
+32
+Z11 !s110 1608043277
+!i10b 1
+Z12 !s108 1608043277.000000
+Z13 !s90 -work|work|Checker.vho|
+Z14 !s107 Checker.vho|
+!i113 1
+Z15 o-work work
+Z16 tExplicit 1 CvgOpt 0
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 7 checker 0 22 MhQbhKUKU[RK]U>GMU[H=2
+!i122 54
+l214
+L129 895
+VTa5JU`NQ4IhGG2?c6h<^O1
+!s100 :GghQkQaXhM:>Kh`3_cG]2
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Echecker_vhd_vec_tst
+Z17 w1608043274
+R5
+R6
+!i122 55
+R0
+Z18 8Waveform11.vwf.vht
+Z19 FWaveform11.vwf.vht
+l0
+L32 1
+VPm8E5o2SlC6X[mfmD2@na2
+!s100 >F]>cM6K1ilE[NMbC5g>a1
+R10
+32
+R11
+!i10b 1
+R12
+Z20 !s90 -work|work|Waveform11.vwf.vht|
+Z21 !s107 Waveform11.vwf.vht|
+!i113 1
+R15
+R16
+Achecker_arch
+R5
+R6
+Z22 DEx4 work 19 checker_vhd_vec_tst 0 22 Pm8E5o2SlC6X[mfmD2@na2
+!i122 55
+l61
+Z23 L34 187
+VZgP`[>oS;MiMl1h>bFQHK3
+!s100 M>Id@NRERI55I[207P62U1
+R10
+32
+!s110 1608043278
+!i10b 1
+R12
+R20
+R21
+!i113 1
+R15
+R16
+Ehard_block
+R1
+R2
+R3
+R4
+R5
+R6
+R7
+!i122 54
+R0
+R8
+R9
+l0
+L35 1
+V5mcF]JUg7TS^l0EMa_h4A1
+!s100 Q?IbEnM>aW3cc=hi`GCc71
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16
+Astructure
+R2
+R3
+R4
+R5
+R6
+R7
+DEx4 work 10 hard_block 0 22 5mcF]JUg7TS^l0EMa_h4A1
+!i122 54
+l65
+L51 20
+VMkbPfL8S?h^i>Mg3GSGD`1
+!s100 O>:lWQfHCcIaXgQ<=Tgn10
+R10
+32
+R11
+!i10b 1
+R12
+R13
+R14
+!i113 1
+R15
+R16

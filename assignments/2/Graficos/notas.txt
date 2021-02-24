@@ -1,0 +1,2 @@
+alterar só a grid nao altera muito (comb13,14,15)
+blockX menor  = menor speedup (comb5)

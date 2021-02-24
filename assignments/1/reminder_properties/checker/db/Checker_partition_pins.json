@@ -1,0 +1,141 @@
+{
+	"partitions" : [
+		{
+			"name" : "Top",
+			"pins" : [
+				{
+					"name" : "checkError",
+					"strict" : false
+				},
+				{
+					"name" : "errorOut0",
+					"strict" : false
+				},
+				{
+					"name" : "errorOut1",
+					"strict" : false
+				},
+				{
+					"name" : "errorOut2",
+					"strict" : false
+				},
+				{
+					"name" : "errorOut3",
+					"strict" : false
+				},
+				{
+					"name" : "errorOut4",
+					"strict" : false
+				},
+				{
+					"name" : "errorOut5",
+					"strict" : false
+				},
+				{
+					"name" : "errorOut6",
+					"strict" : false
+				},
+				{
+					"name" : "errorOut7",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[2]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[12]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[14]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[23]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[8]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[20]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[11]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[19]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[9]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[10]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[22]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[17]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[18]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[15]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[16]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[0]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[13]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[21]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[1]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[3]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[4]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[6]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[5]",
+					"strict" : false
+				},
+				{
+					"name" : "arIn[7]",
+					"strict" : false
+				}
+			]
+		}
+	]
+}
